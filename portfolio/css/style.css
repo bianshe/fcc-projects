@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Livvic;
+  font-style: normal;
+  src: local('Livvic Regular'), local('Livvic-Regular'), url(../fonts/Livvic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: Livvic;
+  font-style: normal;
+  src: local('Livvic Regular'), local('Livvic-Regular'), url(../fonts/Livvic-Regular.ttf) format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Livvic, sans-serif;
+}
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #660099;
+    background-image: url("../images/dark-denim-3.png");
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .nav li {
+    margin: 5px 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #dee400;
+  }
+  
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dee400;
+    background-image: url("../images/dark-denim-3.png");
+  }
+  
+  .welcome-section h1 {
+    font-size: 32px;
+  }
+  
+  .welcome-section p {
+    font-size: 24px;
+    color: #420063;
+  }
+  
+  .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #420063;
+    color: #dee400;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  
+  .projects-section img {
+    max-width: 100%;
+  }
+  
+  .projects-section h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .project-tile {
+    max-width: 40%;
+    min-width: 350px;
+    background: #9833cc;
+    margin: 40px 0;
+    text-decoration: none;
+  }
+  
+  .project-tile p {
+    color: #dee400;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .project-tile:hover {
+    border: solid 5px #e2e500;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #dee400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+  footer p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 20px 0px;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .welcome-section h1  {
+    font-size: 26px;
+   }
+  
+   .welcome-section p {
+    font-size: 24px;
+    color: #420063;
+  }
+    
+    .projects-section h1 {
+      font-size: 22px;
+    }
+    
+    footer p {
+      font-size: 20px;
+    }
+    
+    .contact-link {
+      font-size: 18px;
+      padding: 10px 0px;
+    }
+  }

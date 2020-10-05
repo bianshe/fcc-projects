@@ -1,0 +1,44 @@
+* {
+    background-color: #000d33;
+    color: white;
+    font-family: DM Mono, monospace;
+  }
+  
+  main {
+    display: block;
+    max-height: 100vh;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30vh;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  button {
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: #000d33;
+  }
+  
+  input, p {
+    display: block;
+    margin: 30px auto;
+  }
+  
+  input {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
