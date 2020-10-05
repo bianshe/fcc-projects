@@ -1,0 +1,176 @@
+body {
+    background: linear-gradient(45deg, #fa8bff, #2bd2ff, #2bff88);
+    font-family: "Verdana", sans-serif; 
+    color: black; 
+    padding: 0 20px;
+  }
+  
+  h1 {
+    color: white; 
+    background-color: black;
+    margin: auto;
+    padding: 30px 50px;
+    width: 66%;
+    margin-top: 30px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+  
+  #title, #description {
+    text-align: center;
+  }
+  
+  p {
+    margin-bottom: 35px;
+  }
+  
+  #survey-form {
+    margin: auto;
+    padding: 15px 50px;
+    width: 66%;
+    background: white;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 50px;
+  }
+  
+  input {
+    margin: 2%; 
+    border: #666666 solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 2px;  
+  }
+  
+  input[type="text"] {
+    height: 30px;
+    width: 24%;
+  }
+  
+  input[type="email"] {
+    height: 30px;
+    width: 50%;
+  }
+  
+  input[type="number"] {
+    height: 30px;
+    width: 40px;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin-bottom: 15px;
+  }
+  
+  label, input {
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    width: 28%;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    vertical-align: top;
+  }
+  
+  fieldset label {
+    font-weight: normal;
+    display: inline-block;
+    margin: 0;
+    width: 82%;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  
+  #submit {
+    display: block;
+    margin: 60px auto 20px auto;
+    background: white;
+    color: black;
+    padding: 5px 15px;
+    font-size: 25px;
+    border: black solid;
+    border-width: 1px;
+    border-radius: 8px;
+  }
+  
+  #submit:hover {
+    filter: invert(1);
+  }
+  
+  fieldset, select, textarea {
+    margin-left: 2%;
+    border: #666666 solid;
+    border-width: 1px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  fieldset {
+    border: none;
+    margin-left: 0;
+    width: 38%;
+  }
+    
+  #dropdown {
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+  
+  textarea {
+    display: inline-block;
+    margin: 10px 14px 0px 14px;
+    height: 100px;
+    width: 52%;
+  }
+  
+  @media screen and (max-width: 720px)  {  
+    
+    input[type="text"], input[type="email"], textarea {
+      display: block;
+    }
+    
+    input[type="text"] {
+      width: 70%;
+    }
+    
+     input[type="email"], textarea {
+      width: 80%;
+    }
+    
+    label {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin-left: 0;
+      font-size: 13px;
+    }
+    
+    fieldset label {
+      display: inline-block;
+      margin: 0;
+      vertical-align: middle;
+      font-size: 12px;
+    }
+    
+    fieldset, textarea {
+      width: 75%;
+    }
+    
+  }
+  
+  @media screen and (max-width: 480px)  {
+    #submit {
+      font-size: 20px;
+    }
+    
+    fieldset, textarea {
+      width: 90%;
+    }
+  }
